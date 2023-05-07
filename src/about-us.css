@@ -1,0 +1,52 @@
+.banner-content{
+    position: relative;
+}
+.banner-content img{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+}
+.banner-content-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 2vh auto;
+    gap: 3vh;
+}
+.banner-content-text p{    
+    text-align: justify;
+}
+
+.is-selected{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.41436464088397795) 100%); 
+}
+
+.redes-sociais{
+    display:flex;
+    width: 75vw;
+    height:8vh;
+    margin: 0 auto;
+    gap: 3vw;    
+}
+.redes-sociais img{
+     display: flex;
+     width:52px;
+     transition: .3s ease-in;
+     border-radius: 15px;
+}
+.redes-sociais img:hover{
+    transform: scale(1.1);
+    filter: invert(1);   
+}
+.icon-nav img {
+    position: absolute; 
+    left: 0;
+    width: 52px;
+    height: 52px;    
+}
+
